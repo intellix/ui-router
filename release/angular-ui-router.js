@@ -1,6 +1,6 @@
 /**
  * State-based routing for AngularJS
- * @version v0.2.13
+ * @version v0.2.13-notify
  * @link http://angular-ui.github.com/
  * @license MIT License, http://www.opensource.org/licenses/MIT
  */
@@ -4001,7 +4001,7 @@ function stateContext(el) {
  */
 $StateRefDirective.$inject = ['$state', '$timeout'];
 function $StateRefDirective($state, $timeout) {
-  var allowedOptions = ['location', 'inherit', 'reload'];
+  var allowedOptions = ['location', 'inherit', 'reload', 'notify'];
 
   return {
     restrict: 'A',
